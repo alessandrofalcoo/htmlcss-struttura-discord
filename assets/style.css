@@ -15,7 +15,7 @@
 }
 html, body{
     height: 100%;
-    margin: 3px;
+    margin-top: 3px;
 }
 
 .header-container{
@@ -50,5 +50,22 @@ html, body{
         padding: 1rem;
         margin: 1rem;
         width: 450px;
+    }
+}
+
+.invite_only{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    .invite_only-content{
+        background-color: var(--invite_only-left);
+        width: 400px;
+        margin-top: 1rem;
+    
+    }
+    .invite_only-container{
+        background-color: var(--invite_only-right);
+        width: 300px;
+        margin-top: 1rem;      
     }
 }
