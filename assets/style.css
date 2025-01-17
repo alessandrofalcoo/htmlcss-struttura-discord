@@ -69,3 +69,39 @@ html, body{
         margin-top: 1rem;      
     }
 }
+
+.community{
+    display: flex;
+    justify-content: center;
+    background-color: var(--community-technology);
+    height: 300px;
+    .community-content{
+        background-color: var(--invite_only-left);
+        width: 400px;
+        margin-top: 1rem;
+    
+    }
+    .community-container{
+        background-color: var(--invite_only-right);
+        width: 300px;
+        margin-top: 1rem;      
+    }
+}
+
+.fandom{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    .fandom-content{
+        background-color: var(--invite_only-left);
+        width: 400px;
+        margin-top: 1rem;
+    
+    }
+    .fandom-container{
+        background-color: var(--invite_only-right);
+        width: 300px;
+        margin-top: 1rem;      
+    }
+}
+
