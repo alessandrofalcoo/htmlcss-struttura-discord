@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root{
@@ -14,13 +15,14 @@
     --community-technology: #d3d3d3;
     --technology-content: #228b22;
     --footer-background: #23272a;
-    --footer-container:#f08080;
-    --footer-content: #20b2aa;
+    --footer-primary-col:#f08080;
+    --footer-col: #20b2aa;
 
 }
 html, body{
     height: 100%;
     margin-top: 3px;
+    
 }
 
 .header-container{
@@ -35,6 +37,22 @@ html, body{
         width: 55%;
         margin: 0.5rem;
         padding: 0.25rem;
+        .logo{
+            border-style: dotted;
+            flex-grow: 1;
+        }
+        nav{
+            border-style: dotted;
+            flex-grow: 1;
+            display: flex;
+        }
+        .login{
+            border-style: dotted;
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+
+        }
         a{
             text-decoration: none;
             color: black;
@@ -51,6 +69,7 @@ html, body{
     height: 200px;
     background-color: var(--jumbotron-container);
     .jumbotron-content{
+        border-style: dotted;
         background-color: var(--jumbotron);
         padding: 1rem;
         margin: 1rem;
@@ -63,6 +82,7 @@ html, body{
     justify-content: center;
     height: 300px;
     .invite_only-content{
+        border-style: dotted;
         background-color: var(--invite_only-left);
         width: 400px;
         margin-top: 1rem;
@@ -70,7 +90,8 @@ html, body{
 
     
     }
-    .invite_only-container{
+    .invite_only-secondary-content{
+        border-style: dotted;
         background-color: var(--invite_only-right);
         width: 300px;
         margin-top: 1rem; 
@@ -85,16 +106,18 @@ html, body{
     background-color: var(--community-technology);
     height: 300px;
     .community-content{
-        background-color: var(--invite_only-left);
-        width: 400px;
+        border-style: dotted;
+        background-color: var(--invite_only-right);
+        width: 300px;
         margin-top: 1rem;
         margin-bottom: 1rem;      
 
     
     }
-    .community-container{
-        background-color: var(--invite_only-right);
-        width: 300px;
+    .community-secondary-content{
+        border-style: dotted;
+        background-color: var(--invite_only-left);
+        width: 400px;
         margin-top: 1rem;  
         margin-bottom: 1rem;      
     
@@ -106,6 +129,7 @@ html, body{
     justify-content: center;
     height: 300px;
     .fandom-content{
+        border-style: dotted;
         background-color: var(--invite_only-left);
         width: 400px;
         margin-top: 1rem;
@@ -113,7 +137,8 @@ html, body{
 
     
     }
-    .fandom-container{
+    .fandom-secondary-content{
+        border-style: dotted;
         background-color: var(--invite_only-right);
         width: 300px;
         margin-top: 1rem;
@@ -127,6 +152,7 @@ html, body{
     background-color: var(--community-technology);
     height: 500px;
     .technology-content{
+        border-style: dotted;
         background-color: var(--technology-content);
         width: 700px;
         margin-top: 1rem;
@@ -140,11 +166,41 @@ html, body{
     display: flex;
     justify-content: center;
     height: 500px;
-    .footer-container{
-        background-color: var(--footer-container);
+    .footer-primary-col{
+        background-color: var(--footer-primary-col);
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
 
     }
-    .footer-content{
-        background-color: var(--footer-content);
+    .footer-secondary-col{
+        background-color: var(--footer-col);
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
+    .footer-tertiary-col{
+        background-color: var(--footer-col);
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer-quaternary-col{
+        background-color: var(--footer-col);
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-quinary-col{
+        background-color: var(--footer-col);
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+       
+    }
+
+
 }
