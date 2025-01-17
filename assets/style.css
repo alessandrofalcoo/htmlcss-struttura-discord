@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --header-container: #add8e6;
+    --header: #daa520;
+    --jumbotron-container: #00008b;
+    --jumbotron: #ee82ee;
+    --invite_only-left: #1e90ff;
+    --invite_only-right:#ffc0cb;
+    --community-technology: #d3d3d3;
+}
+
