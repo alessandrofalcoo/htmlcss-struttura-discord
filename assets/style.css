@@ -167,6 +167,7 @@ html, body{
     justify-content: center;
     height: 500px;
     .footer-primary-col{
+        border-style: dotted;
         background-color: var(--footer-primary-col);
         flex-grow: 1;
         margin-top: 1rem;
@@ -175,18 +176,21 @@ html, body{
 
     }
     .footer-secondary-col{
+        border-style: dotted;
         background-color: var(--footer-col);
         flex-grow: 1;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .footer-tertiary-col{
+        border-style: dotted;
         background-color: var(--footer-col);
         flex-grow: 1;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .footer-quaternary-col{
+        border-style: dotted;
         background-color: var(--footer-col);
         flex-grow: 1;
         margin-top: 1rem;
@@ -194,6 +198,7 @@ html, body{
     }
     
     .footer-quinary-col{
+        border-style: dotted;
         background-color: var(--footer-col);
         flex-grow: 1;
         margin-top: 1rem;
