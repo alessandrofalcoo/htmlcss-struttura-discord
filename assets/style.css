@@ -15,7 +15,7 @@
 }
 html, body{
     height: 100%;
-
+    margin: 3px;
 }
 
 .header-container{
@@ -33,6 +33,22 @@ html, body{
         a{
             text-decoration: none;
             color: black;
+            &:hover{
+                text-decoration: underline;
+            }
         }
+    }
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: var(--jumbotron-container);
+    .jumbotron-content{
+        background-color: var(--jumbotron);
+        padding: 1rem;
+        margin: 1rem;
+        width: 450px;
     }
 }
